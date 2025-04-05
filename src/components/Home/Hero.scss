@@ -1,0 +1,21 @@
+.FashionHero {
+    background: rgb(255, 192, 203, .3);
+
+    section {
+        margin-right: 15vw;
+    }
+
+    span {
+        color: var(--red-color);
+    }
+
+    h4 {
+        color: var(--red-color);
+    }
+
+    button {
+        background: var(--red-color);
+        border-radius: 2px;
+        padding: 1.2vh 2vw;
+    }
+}
