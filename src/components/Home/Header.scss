@@ -3,28 +3,50 @@ p {
 }
 
 .TopSection {
-    background: #df4848;
+    background: var(--red-color);
     padding: 0 8vw;
     color: #fff;
 }
 
 .MiddleSection {
-    padding: 0 10vw;
+    padding: 5vh 15vw 10vh;
 
-    input {
-        border: .2px solid rgb(0, 0, 0, .5);
-        border-radius: 4px;
-        height: 60%;
+    .SearchBox {
+        border: .3px solid rgb(0, 0, 0, .3);
+        border-radius: 2px;
+        padding: .8vh 2vw;
+
+        hr {
+            rotate: 90deg;
+            width: 1.2vw;
+            border: none;
+            border-top: .2px solid rgb(0, 0, 0, .3);
+        }
+
+        input {
+            border-radius: 4px;
+            height: 60%;
+            border: none;
+            outline: none;
+            background: transparent;
+        }
+    
+        button {
+            padding: 1vh 1.2vw;
+            background: var(--red-color);
+            border-radius: 3px;
+        }
     }
 }
 
 .BottomSection {
     padding: 0 10vw;
+    margin-top: -5vh;
     
     .Buttons {
         background: #000;
         color: #fff;
-        padding: 1vh 1vw;
+        padding: 1vh 3vw;
         border-radius: 6px;
 
         button {
@@ -33,10 +55,16 @@ p {
     }
 
     .Discount {
-        background: #df4848;
+        background: var(--red-color);
         border-radius: 6px;
         margin-left: -.5vw;
         padding: 1vh 1vw;
         color: #fff;
+
+        .Sale {
+            padding: .2vh .5vw;
+            font-size: 10px;
+            box-shadow: 0 0 2px rgb(0, 0, 0, .3);
+        }
     }
 }
