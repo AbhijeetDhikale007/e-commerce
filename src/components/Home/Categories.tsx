@@ -4,9 +4,9 @@ import './CSS/Categories.scss'
 
 function CategoryContainer({ Text }: { Text: string }) {
     return (
-        <div className='CategoryContainer flex flex-col items-center gap-2 text-xs text-white min-h-[30vh] min-w-[11vw]'>
+        <div className='CategoryContainer flex flex-col items-center gap-2 text-xs text-white min-h-[32vh] min-w-[12vw]'>
             <div className='bg-white rounded-md overflow-hidden'>
-                <img className='h-35 w-full' src='/vercel.svg' alt={Text} />
+                <img className='h-38 w-full' src='/vercel.svg' alt={Text} />
             </div>
             {Text}
         </div>
@@ -36,11 +36,11 @@ export default function HomeCategories() {
                 <hr className='w-full' />
                 <div className='flex gap-5'>
                     <CategoryContainer Text='WOMEN WEAR' />
-                    <CategoryContainer Text='WOMEN WEAR' />
-                    <CategoryContainer Text='WOMEN WEAR' />
-                    <CategoryContainer Text='WOMEN WEAR' />
-                    <CategoryContainer Text='WOMEN WEAR' />
-                    <CategoryContainer Text='WOMEN WEAR' />
+                    <CategoryContainer Text='SHOES COLLECTION' />
+                    <CategoryContainer Text='BAG COLLECTION' />
+                    <CategoryContainer Text='WATCHES' />
+                    <CategoryContainer Text='ACCESSORIES' />
+                    <CategoryContainer Text='SUNGLASSES' />
                 </div>
             </section>
         </div>
