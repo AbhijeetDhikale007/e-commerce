@@ -1,0 +1,26 @@
+.FashionCategories {
+    section {
+        padding: 3vh 1vw;
+
+        hr {
+            border: none;
+            border-top: .3px solid rgb(200, 200, 200, .2);
+        }
+    }
+
+    .Buttons {
+        div {
+            height: 35px;
+            width: 35px;
+            padding: 10px;
+            background: var(--red-color);
+            border-radius: 20px;
+        }
+    }
+
+    .CategoryContainer {
+        background: var(--red-color);
+        padding: 8px;
+        border-radius: 8px;
+    }
+}
