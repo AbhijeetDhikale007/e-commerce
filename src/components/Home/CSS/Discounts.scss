@@ -1,0 +1,18 @@
+.HomeDiscounts {
+    .DiscountsContainer {
+        background: #e7c4c43b;
+        padding: 5vh 4vw;
+
+        p {
+            color: var(--red-color);
+        }
+
+        button {
+            div {
+                border-radius: 12px;
+                padding: 4px;
+                background: var(--red-color);
+            }
+        }
+    }
+}
