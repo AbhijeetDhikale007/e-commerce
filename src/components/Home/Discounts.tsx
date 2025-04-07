@@ -4,7 +4,7 @@ import './CSS/Discounts.scss'
 
 function DiscountsContainer({ Text, Title, Message }: { Text: string, Title: string, Message: string }) {
     return (
-        <div className='DiscountsContainer flex flex-col gap-2 justify-center h-[34vh] w-full'>
+        <div className='DiscountsContainer flex flex-col gap-3 justify-center h-[34vh] w-full'>
             <p className='text-xs'>{Text}</p>
             <h3 className='text-lg font-semibold'>{Title}</h3>
             <span className='text-xs opacity-50'>{Message}</span>
