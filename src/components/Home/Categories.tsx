@@ -4,11 +4,11 @@ import './CSS/Categories.scss'
 
 function CategoryContainer({ Text }: { Text: string }) {
     return (
-        <div className='CategoryContainer flex flex-col items-center gap-2 text-xs text-white min-h-[32vh] min-w-[12vw]'>
-            <div className='bg-white rounded-md overflow-hidden'>
-                <img className='h-38 w-full' src='/vercel.svg' alt={Text} />
+        <div className='CategoryContainer flex flex-col items-center gap-2 text-xs text-white min-h-[34vh] min-w-[12vw]'>
+            <div className='flex items-center justify-center bg-white w-full h-[94%] rounded-md overflow-hidden'>
+                <img className='w-full' src='/vercel.svg' alt={Text} />
             </div>
-            {Text}
+            <p className='text-sm font-semibold'>{Text}</p>
         </div>
     )
 }
