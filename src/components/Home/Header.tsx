@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import './Header.scss'
+import './CSS/Header.scss'
 
 export default function HomeHeader() {
     return (

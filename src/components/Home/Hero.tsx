@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import './Hero.scss'
+import './CSS/Hero.scss'
 
 export default function HomeHero() {
     return (

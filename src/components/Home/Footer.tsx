@@ -1,4 +1,4 @@
-import './Footer.scss'
+import './CSS/Footer.scss'
 
 function Heading({ Text }: { Text: string }) {
     return <h3>{Text}</h3>;
