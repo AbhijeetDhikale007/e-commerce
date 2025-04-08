@@ -3,6 +3,7 @@ import HomeHero from '../components/Home/Hero'
 import HomeCategories from '../components/Home/Categories'
 import HomeDiscounts from '../components/Home/Discounts'
 import HomeFashionStyles from '../components/Home/FashionStyles'
+import HomeCollection from '../components/Home/Collection'
 import HomeFooter from '../components/Home/Footer'
 import ProductList from '../components/ProductList'
 
@@ -14,6 +15,7 @@ export default function Home() {
             <HomeCategories />
             <HomeDiscounts />
             <HomeFashionStyles />
+            <HomeCollection />
             <HomeFooter />
             <ProductList />
         </div>
