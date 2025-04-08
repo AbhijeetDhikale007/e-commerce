@@ -1,0 +1,39 @@
+.HomeFashionStyles {
+    section {
+        padding: 3vh 1vw;
+
+        hr {
+            border: none;
+            border-top: .3px solid rgb(200, 200, 200, .2);
+        }
+    }
+
+    .Buttons {
+        div {
+            height: 35px;
+            width: 35px;
+            padding: 10px;
+            background: var(--red-color);
+            border-radius: 20px;
+        }
+    }
+
+    
+    .FashionStylesContainer {
+        background: #fff;
+        // padding: 8px;
+
+        .ImageDiv {
+            background: rgba(173, 171, 171, 0.493);
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+        }
+
+        .TextContainer {
+            border: .3px solid rgb(150, 150, 150, .3);
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 4px;
+            padding: 3vh 1vw;
+        }
+    }
+}
